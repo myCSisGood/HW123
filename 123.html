@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		table{
+			background-color: pink;
+		}
+		h1{
+			color:navy;
+			maring-left: 40px;
+			font-weight:bold;
+		}
+		#a{
+			font-family:tahoma;
+		}
+		#b{
+			color:purple;
+		}
+		span{
+			color:black;
+		}
+	</style>
+
+</head>
+<body>
+	<table border="5">
+		<form>
+			<tr>
+				<th colspan="3" style="background: violet;"><h1>About-110306060</h1></th>
+			</tr>
+			<tr>
+				<td rowspan="3"><img src="https://i4.disp.cc/imgur/WW22sV3h.jpg" width="200"></td>
+				<td colspan="2">
+					<label id="b">Name:</label>
+					<input type="text" name="name" size="20">
+					<br>
+					<label id="b">Gender:</label>
+					<input type="radio" name="Gender" value="Male">Male
+					<input type="radio" name="Gender" value="Female">Female
+					<input type="radio" name="Gender" value="Other">Other
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label id="b">County:</label>
+					<select name="County">
+					<option value="Taipei">Taipei</option>
+					<option value="Taoyuan">Taoyuan</option>
+					<option value="Taichung">Taichung</option>
+					<option value="Tainan">Tainan</option>
+					</select>
+				</td>
+				<td>
+					<label id="b">Birthday:</label>
+					<input type="date" name="date">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<label>E-mail:</label>
+					<input type="text" name="email" size="20">
+				</td>
+			</tr>
+			<tr>
+				<td id="a">Hobby</td>
+				<td colspan="2">
+					<input type="checkbox" name="a" value="Swimming">Swimming
+					<input type="checkbox" name="a" value="Volleyball">Volleyball
+					<input type="checkbox" name="a" value="Movie">Movie
+					<input type="checkbox" name="a" value="Game">Game
+					<input type="checkbox" name="a" value="Sleep">Sleep
+				</td>
+			</tr>
+			<tr>
+				<td id="a">Skill</td>
+				<td colspan="2">
+					<input type="checkbox" name="b" value="Java">Java
+					<input type="checkbox" name="b" value="HTML">HTML
+					<input type="checkbox" name="b" value="Python">Python
+					<input type="checkbox" name="b" value="Microsoft Office">Microsoft Office
+					<input type="checkbox" name="b" value="Premiere">Premiere
+				</td>
+			</tr>
+			<tr>
+				<td id="a">Say Something</td>
+				<td colspan="2"><textarea placeholder="Say something here."></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<input type="submit" name="submit">
+					<input type="reset" name="clear">
+				</td>
+			</tr>
+
+
+		</form>
+		
+
+</body>
+</html>
